@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Edu+TAS+Beginner:wght@500&family=Great+Vibes&family=Inter:wght@300;400;500;700;800&family=Lato:wght@400;700;900&family=Merriweather:wght@300;400;700&family=Niconne&family=Play&family=Satisfy&family=Whisper&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: work-sans;
+}
+.section-title{
+    color:  #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
+.text-light-gray{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 20px 25px;
+    margin-top: 20px;
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+nav > ul{
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+    cursor: pointer;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+.banner-content{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.banner-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-img img{
+    width: 100%;
+    margin-top: 20px;
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 90px;
+}
+
+.teams-container{
+    display: flex;
+    
+    align-items: center;
+   
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title{
+    font-size:2.8rem ;
+}
+.teams-title .quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.teams-title .text-features{
+    color: #FF900E;
+    font-weight: 700;
+}
